@@ -1,9 +1,12 @@
 import activities.Activity;
 import activities.SeattleAirportParty;
+import customer.Customer;
 import io.Input;
 import io.Output;
 import places.Place;
 import places.airports.SeattleAirport;
+import routes.Route;
+import routes.RouteRecommender;
 
 import java.util.LinkedList;
 import java.util.List;

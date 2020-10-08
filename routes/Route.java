@@ -1,3 +1,5 @@
+package routes;
+
 import activities.Activity;
 
 import java.util.List;

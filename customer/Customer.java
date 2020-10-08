@@ -1,4 +1,7 @@
+package customer;
+
 import activities.Activity;
+import routes.Route;
 
 import java.util.Date;
 import java.util.List;

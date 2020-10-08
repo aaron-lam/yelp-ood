@@ -1,3 +1,6 @@
+package routes;
+
+import customer.Customer;
 import io.Input;
 
 import java.util.LinkedList;
