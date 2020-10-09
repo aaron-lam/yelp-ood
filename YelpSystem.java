@@ -11,18 +11,15 @@ import routes.RouteRecommender;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Yelp {
+public class YelpSystem {
     private List<Place> allPlaces;
-    private List<Activity> allActivities;
     private RouteRecommender routeRecommender;
 
-    public Yelp() {
+    public YelpSystem() {
         // add all spots and activities here...
         // Normally activities and spots are stored in DB.
         this.allPlaces = new LinkedList<>();
         allPlaces.add(new SeattleAirport());
-        this.allActivities = new LinkedList<>();
-        allActivities.add(new SeattleAirportParty());
         this.routeRecommender = new RouteRecommender();
     }
 
