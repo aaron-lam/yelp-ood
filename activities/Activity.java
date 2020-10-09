@@ -3,20 +3,20 @@ package activities;
 import java.util.Date;
 
 public abstract class Activity {
-    private String activityName;
+    private String name;
     private Date startDate;
     private double averageMoneySpent;
     private boolean isKidFriendly;
 
-    public Activity(String activityName, Date startDate, double averageMoneySpent, boolean isKidFriendly) {
-        this.activityName = activityName;
+    public Activity(String name, Date startDate, double averageMoneySpent, boolean isKidFriendly) {
+        this.name = name;
         this.startDate = startDate;
         this.averageMoneySpent = averageMoneySpent;
         this.isKidFriendly = isKidFriendly;
     }
 
-    public String getActivityName() {
-        return activityName;
+    public String getName() {
+        return name;
     }
 
     public Date getStartDate() {
